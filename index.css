@@ -1,0 +1,37 @@
+body{
+    height: 100vh;
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+header {
+    height: 65px;
+    background-color: black;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.top-left {
+    height: 80%;
+    width: 40%;
+    color: white;
+    border: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    align-content: space-evenly;
+}
+
+.top-right {
+    height: 80%;
+    width: 10%;
+    border: 1px solid white;
+}
+
+footer {
+    height: 85px;
+    background-color: black;
+}
